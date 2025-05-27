@@ -1,0 +1,6 @@
+flask==2.3.3
+google-generativeai==0.3.2
+imaplib2==3.6
+secure-smtplib==0.1.1
+python-dotenv==1.0.0
+email-validator==2.1.0
