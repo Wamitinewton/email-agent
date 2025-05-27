@@ -1,0 +1,13 @@
+{
+  "auto_reply_enabled": true,
+  "response_tone": "friendly",
+  "signature": "Best regards",
+  "working_hours": {
+    "start": 9,
+    "end": 17
+  },
+  "auto_categories": [
+    "calendar_invite",
+    "newsletter"
+  ]
+}
