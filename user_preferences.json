@@ -1,6 +1,6 @@
 {
   "auto_reply_enabled": true,
-  "response_tone": "friendly",
+  "response_tone": "brief",
   "signature": "Best regards",
   "working_hours": {
     "start": 9,

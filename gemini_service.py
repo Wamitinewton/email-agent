@@ -6,7 +6,7 @@ class GeminiService:
     def __init__(self):
         self.config = Config()
         genai.configure(api_key=self.config.GEMINI_API_KEY)
-        self.model = genai.GenerativeModel('gemini-pro')
+        self.model = genai.GenerativeModel('gemini-2.0-flash')
         
     def summarize_emails(self, emails: List[Dict]) -> str:
         """Generate summary of unread emails"""
@@ -137,6 +137,5 @@ class GeminiService:
             'subject_keywords': email['subject'].split()
         }
         
-        # For now, just log the learning data
         print(f"Learning data: {learning_data}")
       
